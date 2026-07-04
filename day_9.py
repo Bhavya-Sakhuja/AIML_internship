@@ -8,7 +8,7 @@ import numpy as np
 # print(arr1/2)
 # print(arr1%2)
 
-# arr2 = np.array([2,3,5,1,4,6,6])
+arr2 = np.array([2,3,5,1,4,6,6])
 
 # print(arr1 * arr2)
 # print(arr1 / arr2)
@@ -28,7 +28,7 @@ import numpy as np
 
 # # print(np.count(arr2))
 
-# print(np.std(arr2))
+print(np.std(arr2))
 
 # print(np.mean(arr2))
 
