@@ -13,4 +13,5 @@ Covered Topics
 - patterns 
 - modules - os , math 
 - work with file 
-- numpy basics 
+- numpy
+- pandas basic
