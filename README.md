@@ -14,4 +14,4 @@ Covered Topics
 - modules - os , math 
 - work with file 
 - numpy
-- pandas basic
+- pandas 
