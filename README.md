@@ -15,3 +15,4 @@ Covered Topics
 - work with file 
 - numpy
 - pandas 
+- Data Cleaning
