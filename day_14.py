@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 
 # students = ['Ram','Sham',"Kirat"]
 
-Marks = [50,55,52,89,74,90,98,55,52,53]
+# Marks = [50,55,52,89,74,90,98,55,52,53]
 
-plt.hist(Marks,bins=3)
+# plt.hist(Marks,bins=3)
 
 # plt.barh(students,Marks)
 
@@ -32,16 +32,41 @@ plt.hist(Marks,bins=3)
 
 # pie chart 
 
-sizes = [30,40,20,10]
+# sizes = [30,40,20,10]
 
-labels = ['A','B','C','D']
+# labels = ['A','B','C','D']
 
-plt.pie(
-    sizes,
-    labels = labels,
-    autopct='%1.1f%%'
-)
+# plt.pie(
+#     sizes,
+#     labels = labels,
+#     autopct='%1.1f%%'
+# )
 
-plt.savefig("graph.png")
+# plt.savefig("graph.png")
+# plt.show()
+
+
+x = [1,2,3,4]
+y = [3,4,5,6]
+
+# plt.plot(x,y)
+
+# figure size 
+plt.figure(figsize=(5,4))
+
+# subplots 
+plt.subplot(2,2,1)
+plt.plot(x,y)
+
+plt.subplot(2,2,2)
+
+plt.plot(x,y)
+plt.subplot(2,2,3)
+
+plt.plot(x,y)
+plt.subplot(2,2,4)
+
+plt.plot(x,y)
+
+
 plt.show()
-
